@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(33, 150, 176);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+nav {
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+}
+
+nav > a {
+    margin: 30px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+}
+
