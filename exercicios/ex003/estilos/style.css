@@ -7,17 +7,28 @@
 }
 
 h1 {
-    padding: 10px;
+    padding: 12px;
     text-align: center;
     background-color: rgb(33, 150, 176);
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 3.5em;
+}
+
+header p {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(33, 150, 176);
 }
 
 nav {
     width: 100%;
+    margin-bottom: 30px;
     padding: 4px;
     text-align: center;
     background-color: rgba(32, 162, 103, 0.66);
@@ -32,42 +43,67 @@ nav > a {
     text-decoration: none;
 }
 
-header p {
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    color: white;
-    font-size: 1.2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(33, 150, 176);
-}
-
 section {
     display: grid;
-    width: 100%;
-    height: 100%;
-
+    margin: 12px;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 30vh 30vh 30vh;
-    grid-gap: 5px;
-
-    grid-template-areas: "img1 img2";
+    grid-gap: 12px;
 }
 
-.img-1 {
-    width: 45%;
+div.img-1 {
     height: 300px;
     background-image: url(../imagens/escola-atenas.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    grid-area: img1;
+    background-size: cover;
+    background-position: center center;
+    grid-column: 1/2;
 }
 
-.img-2 {
-    width: 45%;
+div.img-2 {
     height: 300px;
     background-image: url(../imagens/monalisa.jpg);
-    background-size: auto;
+    background-size: cover;
+    background-position: top center;
+    grid-column: 2/3;
+}
+
+div.img-3 {
+    height: 300px;
+    background-color: darkred;
+    background-image: url(../imagens/nasc-venus.png);
+    background-size: cover;
+    grid-column: 1/3;
+}
+
+div.img-4 {
+    height: 300px;
+    background-image: url(../imagens/morte-socrates.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column: 1/2;
+}
+
+div.img-5 {
+    height: 300px;
+    background-image: url(../imagens/abaporu.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    grid-area: img2;
+    background-position: center center;
+    grid-column: 1/2;
+}
+
+div.img-6 {
+    background-image: url(../imagens/lavrador.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column: 2/3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+div.img-7 {
+    height: 300px;
+    background-image: url(../imagens/santa-ceia.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column: 1/3;
 }
