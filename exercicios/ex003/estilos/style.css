@@ -6,24 +6,26 @@
     box-sizing: border-box;
 }
 
-h1 {
-    padding: 12px;
-    text-align: center;
+header {
     background-color: darkred;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
     font-size: 3.5em;
 }
 
-header p {
-    width: 100%;
-    padding: 12px;
+h2 {
+    padding: 15px;
     text-align: center;
     color: white;
     font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: darkred;
+   
 }
 
 nav {
@@ -47,9 +49,13 @@ nav > a {
 section {
     display: grid;
     position: relative;
-    margin: 18px;
+    margin: 25px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 18px;
+}
+
+div a {
+    text-decoration: none;
 }
 
 div.img-1 {
@@ -58,19 +64,20 @@ div.img-1 {
     background-size: cover;
     background-position: center center;
     grid-column: 1/2;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.500);
 }
 
-div.img-1 > p {
+div.img-1 p {
     position: relative;
     top: 87.5%;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
-    
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 div.img-2 {
@@ -82,15 +89,16 @@ div.img-2 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-2 > p {
+div.img-2 p {
     position: relative;
     top: 87.5%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 div.img-3 {
@@ -102,15 +110,16 @@ div.img-3 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-3 > p {
+div.img-3 p {
     position: relative;
     top: 87.5%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 div.img-4 {
@@ -122,15 +131,16 @@ div.img-4 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-4 > p {
+div.img-4 p {
     position: relative;
     top: 87.5%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 div.img-5 {
@@ -143,15 +153,16 @@ div.img-5 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-5 > p {
+div.img-5 p {
     position: relative;
     top: 87.5%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 div.img-6 {
@@ -164,15 +175,16 @@ div.img-6 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-6 > p {
+div.img-6 p {
     position: relative;
     top: 94%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
 }
 
 
@@ -185,13 +197,19 @@ div.img-7 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.503);
 }
 
-div.img-7 > p {
+div.img-7 p {
     position: relative;
-    top: 87.5%;
+    top: 87.2%;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    font-weight: bold;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.500);
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+div p:hover {
+    background-color: black;
+    color: antiquewhite;
 }
