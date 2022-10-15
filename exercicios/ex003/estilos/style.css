@@ -67,7 +67,7 @@ div.img-1 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.500);
 }
 
-div.img-1 p {
+div.img-1 a {
     position: relative;
     top: 87.5%;
     
@@ -78,6 +78,10 @@ div.img-1 p {
     text-decoration: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.600);
+}
+
+div.img-1 p {
+    background-color: rgba(0, 0, 0, 0.504);
 }
 
 div.img-2 {
