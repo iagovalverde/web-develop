@@ -20,12 +20,11 @@ h1 {
 }
 
 h2 {
-    width: 100vw;
-    padding: 15px;
+    display: block;
+    padding: 15px 0px;
     text-align: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
 }
 
 nav {
@@ -59,6 +58,7 @@ div a {
 }
 
 div.img-1 {
+    position: relative;
     height: 300px;
     background-image: url(../imagens/escola-atenas.jpg);
     background-size: cover;
@@ -67,7 +67,7 @@ div.img-1 {
     box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.500);
 }
 
-div.img-1 a {
+div.img-1 p {
     position: relative;
     top: 87.5%;
     
@@ -80,11 +80,8 @@ div.img-1 a {
     background-color: rgba(0, 0, 0, 0.600);
 }
 
-div.img-1 p {
-    background-color: rgba(0, 0, 0, 0.504);
-}
-
 div.img-2 {
+    position: relative;
     height: 300px;
     background-image: url(../imagens/monalisa.jpg);
     background-size: cover;
@@ -106,6 +103,7 @@ div.img-2 p {
 }
 
 div.img-3 {
+    position: relative;
     height: 300px;
     background-color: darkred;
     background-image: url(../imagens/nasc-venus.png);
@@ -127,6 +125,7 @@ div.img-3 p {
 }
 
 div.img-4 {
+    position: relative;
     height: 300px;
     background-image: url(../imagens/morte-socrates.jpg);
     background-size: cover;
@@ -148,6 +147,7 @@ div.img-4 p {
 }
 
 div.img-5 {
+    position: relative;
     height: 300px;
     background-image: url(../imagens/abaporu.jpg);
     background-size: cover;
@@ -170,6 +170,7 @@ div.img-5 p {
 }
 
 div.img-6 {
+    position: relative;
     background-image: url(../imagens/lavrador.jpg);
     background-size: cover;
     background-position: center center;
@@ -193,6 +194,7 @@ div.img-6 p {
 
 
 div.img-7 {
+    position: relative;
     height: 300px;
     background-image: url(../imagens/santa-ceia.jpg);
     background-size: cover;
